@@ -1,4 +1,4 @@
-import { Container } from '@/components/container'
+import { Container } from '@/components/shared/container'
 import { Header } from '@/components/header'
 import '@/globals.css'
 
