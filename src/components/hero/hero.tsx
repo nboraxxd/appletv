@@ -14,7 +14,7 @@ export default function Hero() {
     offset: ['start start', 'end end']
   })
 
-  const opacity = useTransform(scrollYProgress, [0, 0.7, 1], [1, 1, 0])
+  const opacity = useTransform(scrollYProgress, [0, 0.3, 1], [1, 1, 0])
 
   return (
     <div className='relative bg-background text-white'>
@@ -46,7 +46,7 @@ export default function Hero() {
               initial={{ opacity: 0, y: 30 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.5, opacity: { duration: 0.8 } }}
-              className='mb-10 text-3xl font-bold xs:text-4xl sm:text-5xl'
+              className='mb-10 text-3xl font-bold xs:text-4xl sm:text-7xl'
             >
               Tất cả nội dung Apple&nbsp;Originals. <br />
               Chỉ có trên Apple&nbsp;TV.
