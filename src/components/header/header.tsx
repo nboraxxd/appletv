@@ -5,7 +5,7 @@ import { Logo } from '@/components/shared/logo'
 export default function Header() {
   return (
     <>
-      <header className='relative z-10 bg-backgroundContrast text-white'>
+      <header className='relative z-20 bg-backgroundContrast text-white'>
         <Container className='flex min-h-[--header-row-height] items-center pl-4'>
           <a href='/' className='relative inline-block fill-[rgba(255,255,255,0.8)] px-2 transition hover:fill-white'>
             <Logo /> <span className='sr-only'>Back to homepage</span>

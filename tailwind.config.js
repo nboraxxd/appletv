@@ -24,6 +24,15 @@ export default {
       '6xl': ['3.875rem', '1.0625'], // 62px
       '7xl': ['4.5rem', '1.05'] // 72px
     },
+    keyframes: {
+      'carousel-move': {
+        '0%': { transform: 'translateX(0)' },
+        '100%': { transform: 'translateX(-100%)' }
+      }
+    },
+    animation: {
+      'carousel-move': 'carousel-move var(--duration,80s) infinite'
+    },
     extend: {
       screens: {
         xs: '480px',
